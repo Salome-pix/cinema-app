@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE713DC528CA365300FE6E64 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE713DC428CA365300FE6E64 /* UpcomingViewController.swift */; };
+		FEB5794328C09E8100FAAA8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB5794228C09E8100FAAA8B /* AppDelegate.swift */; };
+		FEB5794528C09E8100FAAA8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB5794428C09E8100FAAA8B /* SceneDelegate.swift */; };
+		FEB5794728C09E8100FAAA8B /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB5794628C09E8100FAAA8B /* MainTabBarViewController.swift */; };
+		FEB5794D28C09E8100FAAA8B /* VuduTV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEB5794B28C09E8100FAAA8B /* VuduTV.xcdatamodeld */; };
+		FEB5795228C09E8300FAAA8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB5795028C09E8300FAAA8B /* LaunchScreen.storyboard */; };
+		FEB5799F28C1EE2800FAAA8B /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB5799928C1EE2800FAAA8B /* HomePresenter.swift */; };
+		FEB579A028C1EE2800FAAA8B /* HomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB5799A28C1EE2800FAAA8B /* HomeWorker.swift */; };
+		FEB579A128C1EE2800FAAA8B /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB5799B28C1EE2800FAAA8B /* HomeRouter.swift */; };
+		FEB579A228C1EE2800FAAA8B /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB5799C28C1EE2800FAAA8B /* HomeModels.swift */; };
+		FEB579A328C1EE2800FAAA8B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB5799D28C1EE2800FAAA8B /* HomeViewController.swift */; };
+		FEB579A428C1EE2800FAAA8B /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB5799E28C1EE2800FAAA8B /* HomeInteractor.swift */; };
+		FEB579A628C23DED00FAAA8B /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB579A528C23DED00FAAA8B /* CollectionViewTableViewCell.swift */; };
+		FEB579A828C2458600FAAA8B /* MovieCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB579A728C2458600FAAA8B /* MovieCellModel.swift */; };
+		FEB579DD28C3A19400FAAA8B /* HerroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB579DC28C3A19400FAAA8B /* HerroHeaderUIView.swift */; };
+		FEB579DF28C3CA9C00FAAA8B /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB579DE28C3CA9C00FAAA8B /* APICaller.swift */; };
+		FEB579E128C4BAB900FAAA8B /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB579E028C4BAB900FAAA8B /* Title.swift */; };
+		FEB57A1628C5DD0900FAAA8B /*  Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB57A1528C5DD0900FAAA8B /*  Extensions.swift */; };
+		FEB57A1928C6431200FAAA8B /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = FEB57A1828C6431200FAAA8B /* SDWebImage */; };
+		FEB57A1B28C6431200FAAA8B /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FEB57A1A28C6431200FAAA8B /* SDWebImageMapKit */; };
+		FEB57A1D28C6451F00FAAA8B /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB57A1C28C6451F00FAAA8B /* TitleCollectionViewCell.swift */; };
+		FEC1660328CB758500976C70 /* TitleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1660228CB758500976C70 /* TitleModel.swift */; };
+		FEC1660528CC70BD00976C70 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1660428CC70BD00976C70 /* SearchViewController.swift */; };
+		FEC1660928CDB75500976C70 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1660828CDB75500976C70 /* TitleTableViewCell.swift */; };
+		FEC1660B28CDE27E00976C70 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1660A28CDE27E00976C70 /* SearchResultsViewController.swift */; };
+		FEC1660D28CDE3B600976C70 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1660C28CDE3B600976C70 /* TitlePreviewViewModel.swift */; };
+		FEC1660F28CDE44200976C70 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC1660E28CDE44200976C70 /* YoutubeSearchResponse.swift */; };
+		FEC31E8B28CEF9A00067E1A9 /* DataPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC31E8A28CEF9A00067E1A9 /* DataPersistenceManager.swift */; };
+		FEC31E8D28CF56630067E1A9 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC31E8C28CF56630067E1A9 /* DownloadsViewController.swift */; };
+		FEC31E8F28CF5A170067E1A9 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC31E8E28CF5A170067E1A9 /* Media.xcassets */; };
+		FEC31E9128CF69FC0067E1A9 /* MoviePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC31E9028CF69FC0067E1A9 /* MoviePreviewViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE713DC428CA365300FE6E64 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		FEB5793F28C09E8100FAAA8B /* VuduTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VuduTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB5794228C09E8100FAAA8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEB5794428C09E8100FAAA8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FEB5794628C09E8100FAAA8B /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		FEB5794C28C09E8100FAAA8B /* VuduTV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VuduTV.xcdatamodel; sourceTree = "<group>"; };
+		FEB5795128C09E8300FAAA8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEB5795328C09E8300FAAA8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB5799928C1EE2800FAAA8B /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		FEB5799A28C1EE2800FAAA8B /* HomeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorker.swift; sourceTree = "<group>"; };
+		FEB5799B28C1EE2800FAAA8B /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		FEB5799C28C1EE2800FAAA8B /* HomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
+		FEB5799D28C1EE2800FAAA8B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FEB5799E28C1EE2800FAAA8B /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		FEB579A528C23DED00FAAA8B /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		FEB579A728C2458600FAAA8B /* MovieCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCellModel.swift; sourceTree = "<group>"; };
+		FEB579DC28C3A19400FAAA8B /* HerroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerroHeaderUIView.swift; sourceTree = "<group>"; };
+		FEB579DE28C3CA9C00FAAA8B /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		FEB579E028C4BAB900FAAA8B /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		FEB57A1528C5DD0900FAAA8B /*  Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Extensions.swift"; sourceTree = "<group>"; };
+		FEB57A1C28C6451F00FAAA8B /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		FEC1660228CB758500976C70 /* TitleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModel.swift; sourceTree = "<group>"; };
+		FEC1660428CC70BD00976C70 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		FEC1660828CDB75500976C70 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		FEC1660A28CDE27E00976C70 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		FEC1660C28CDE3B600976C70 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
+		FEC1660E28CDE44200976C70 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
+		FEC31E8A28CEF9A00067E1A9 /* DataPersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistenceManager.swift; sourceTree = "<group>"; };
+		FEC31E8C28CF56630067E1A9 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		FEC31E8E28CF5A170067E1A9 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		FEC31E9028CF69FC0067E1A9 /* MoviePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePreviewViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEB5793C28C09E8100FAAA8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB57A1B28C6431200FAAA8B /* SDWebImageMapKit in Frameworks */,
+				FEB57A1928C6431200FAAA8B /* SDWebImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEB5793628C09E8100FAAA8B = {
+			isa = PBXGroup;
+			children = (
+				FEC31E8E28CF5A170067E1A9 /* Media.xcassets */,
+				FEB5794128C09E8100FAAA8B /* VuduTV */,
+				FEB5794028C09E8100FAAA8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEB5794028C09E8100FAAA8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEB5793F28C09E8100FAAA8B /* VuduTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEB5794128C09E8100FAAA8B /* VuduTV */ = {
+			isa = PBXGroup;
+			children = (
+				FEB5795928C09EE700FAAA8B /* App */,
+				FEB5795F28C09FD100FAAA8B /* Managers */,
+				FEB5795C28C09F3200FAAA8B /* Utilities */,
+				FEC165FF28CB74AE00976C70 /* Views */,
+				FEB5795B28C09F2600FAAA8B /* Model */,
+				FEC1660028CB74DF00976C70 /* View Model */,
+				FEB5795A28C09F1100FAAA8B /* Scenes */,
+				FEB5795028C09E8300FAAA8B /* LaunchScreen.storyboard */,
+				FEB5795328C09E8300FAAA8B /* Info.plist */,
+				FEB5794B28C09E8100FAAA8B /* VuduTV.xcdatamodeld */,
+			);
+			path = VuduTV;
+			sourceTree = "<group>";
+		};
+		FEB5795928C09EE700FAAA8B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FEB5794228C09E8100FAAA8B /* AppDelegate.swift */,
+				FEB5794428C09E8100FAAA8B /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FEB5795A28C09F1100FAAA8B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FEB5796528C0A04800FAAA8B /* Main */,
+				FEB5796428C0A04700FAAA8B /* Home */,
+				FEB5796328C0A04500FAAA8B /* Upcoming Movies */,
+				FEB5796228C0A04300FAAA8B /* Top Searches */,
+				FEB5796128C0A04200FAAA8B /* Downloads */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FEB5795B28C09F2600FAAA8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FEB579A728C2458600FAAA8B /* MovieCellModel.swift */,
+				FEB579E028C4BAB900FAAA8B /* Title.swift */,
+				FEC1660E28CDE44200976C70 /* YoutubeSearchResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FEB5795C28C09F3200FAAA8B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FEB57A1528C5DD0900FAAA8B /*  Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FEB5795F28C09FD100FAAA8B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FEB579DE28C3CA9C00FAAA8B /* APICaller.swift */,
+				FEC31E8A28CEF9A00067E1A9 /* DataPersistenceManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		FEB5796128C0A04200FAAA8B /* Downloads */ = {
+			isa = PBXGroup;
+			children = (
+				FEC31E8C28CF56630067E1A9 /* DownloadsViewController.swift */,
+			);
+			path = Downloads;
+			sourceTree = "<group>";
+		};
+		FEB5796228C0A04300FAAA8B /* Top Searches */ = {
+			isa = PBXGroup;
+			children = (
+				FEC1660428CC70BD00976C70 /* SearchViewController.swift */,
+			);
+			path = "Top Searches";
+			sourceTree = "<group>";
+		};
+		FEB5796328C0A04500FAAA8B /* Upcoming Movies */ = {
+			isa = PBXGroup;
+			children = (
+				FE713DC428CA365300FE6E64 /* UpcomingViewController.swift */,
+			);
+			path = "Upcoming Movies";
+			sourceTree = "<group>";
+		};
+		FEB5796428C0A04700FAAA8B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FEB5799928C1EE2800FAAA8B /* HomePresenter.swift */,
+				FEB5799A28C1EE2800FAAA8B /* HomeWorker.swift */,
+				FEB5799B28C1EE2800FAAA8B /* HomeRouter.swift */,
+				FEB5799C28C1EE2800FAAA8B /* HomeModels.swift */,
+				FEB5799D28C1EE2800FAAA8B /* HomeViewController.swift */,
+				FEB5799E28C1EE2800FAAA8B /* HomeInteractor.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FEB5796528C0A04800FAAA8B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FEB5794628C09E8100FAAA8B /* MainTabBarViewController.swift */,
+				FEC1660A28CDE27E00976C70 /* SearchResultsViewController.swift */,
+				FEC31E9028CF69FC0067E1A9 /* MoviePreviewViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FEC165FF28CB74AE00976C70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FEB579A528C23DED00FAAA8B /* CollectionViewTableViewCell.swift */,
+				FEC1660828CDB75500976C70 /* TitleTableViewCell.swift */,
+				FEB57A1C28C6451F00FAAA8B /* TitleCollectionViewCell.swift */,
+				FEB579DC28C3A19400FAAA8B /* HerroHeaderUIView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FEC1660028CB74DF00976C70 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				FEC1660C28CDE3B600976C70 /* TitlePreviewViewModel.swift */,
+				FEC1660228CB758500976C70 /* TitleModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEB5793E28C09E8100FAAA8B /* VuduTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEB5795628C09E8300FAAA8B /* Build configuration list for PBXNativeTarget "VuduTV" */;
+			buildPhases = (
+				FEB5793B28C09E8100FAAA8B /* Sources */,
+				FEB5793C28C09E8100FAAA8B /* Frameworks */,
+				FEB5793D28C09E8100FAAA8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VuduTV;
+			packageProductDependencies = (
+				FEB57A1828C6431200FAAA8B /* SDWebImage */,
+				FEB57A1A28C6431200FAAA8B /* SDWebImageMapKit */,
+			);
+			productName = VuduTV;
+			productReference = FEB5793F28C09E8100FAAA8B /* VuduTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEB5793728C09E8100FAAA8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					FEB5793E28C09E8100FAAA8B = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = FEB5793A28C09E8100FAAA8B /* Build configuration list for PBXProject "VuduTV" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEB5793628C09E8100FAAA8B;
+			packageReferences = (
+				FEB57A1728C6431200FAAA8B /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			productRefGroup = FEB5794028C09E8100FAAA8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEB5793E28C09E8100FAAA8B /* VuduTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEB5793D28C09E8100FAAA8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC31E8F28CF5A170067E1A9 /* Media.xcassets in Resources */,
+				FEB5795228C09E8300FAAA8B /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEB5793B28C09E8100FAAA8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB5799F28C1EE2800FAAA8B /* HomePresenter.swift in Sources */,
+				FEC1660528CC70BD00976C70 /* SearchViewController.swift in Sources */,
+				FEB57A1628C5DD0900FAAA8B /*  Extensions.swift in Sources */,
+				FEC1660B28CDE27E00976C70 /* SearchResultsViewController.swift in Sources */,
+				FEB5794728C09E8100FAAA8B /* MainTabBarViewController.swift in Sources */,
+				FEB5794D28C09E8100FAAA8B /* VuduTV.xcdatamodeld in Sources */,
+				FEC1660928CDB75500976C70 /* TitleTableViewCell.swift in Sources */,
+				FEC31E8B28CEF9A00067E1A9 /* DataPersistenceManager.swift in Sources */,
+				FEB57A1D28C6451F00FAAA8B /* TitleCollectionViewCell.swift in Sources */,
+				FEB579A628C23DED00FAAA8B /* CollectionViewTableViewCell.swift in Sources */,
+				FEB5794328C09E8100FAAA8B /* AppDelegate.swift in Sources */,
+				FEB579A228C1EE2800FAAA8B /* HomeModels.swift in Sources */,
+				FEB579A328C1EE2800FAAA8B /* HomeViewController.swift in Sources */,
+				FEB579A128C1EE2800FAAA8B /* HomeRouter.swift in Sources */,
+				FEB579DF28C3CA9C00FAAA8B /* APICaller.swift in Sources */,
+				FEC1660F28CDE44200976C70 /* YoutubeSearchResponse.swift in Sources */,
+				FE713DC528CA365300FE6E64 /* UpcomingViewController.swift in Sources */,
+				FEB579E128C4BAB900FAAA8B /* Title.swift in Sources */,
+				FEB579DD28C3A19400FAAA8B /* HerroHeaderUIView.swift in Sources */,
+				FEB5794528C09E8100FAAA8B /* SceneDelegate.swift in Sources */,
+				FEC31E8D28CF56630067E1A9 /* DownloadsViewController.swift in Sources */,
+				FEB579A828C2458600FAAA8B /* MovieCellModel.swift in Sources */,
+				FEB579A028C1EE2800FAAA8B /* HomeWorker.swift in Sources */,
+				FEC31E9128CF69FC0067E1A9 /* MoviePreviewViewController.swift in Sources */,
+				FEC1660D28CDE3B600976C70 /* TitlePreviewViewModel.swift in Sources */,
+				FEC1660328CB758500976C70 /* TitleModel.swift in Sources */,
+				FEB579A428C1EE2800FAAA8B /* HomeInteractor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEB5795028C09E8300FAAA8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEB5795128C09E8300FAAA8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEB5795428C09E8300FAAA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEB5795528C09E8300FAAA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEB5795728C09E8300FAAA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68JHUUXS7A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VuduTV/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mskhvilidze.VuduTV.VuduTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEB5795828C09E8300FAAA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68JHUUXS7A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VuduTV/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mskhvilidze.VuduTV.VuduTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEB5793A28C09E8100FAAA8B /* Build configuration list for PBXProject "VuduTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB5795428C09E8300FAAA8B /* Debug */,
+				FEB5795528C09E8300FAAA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEB5795628C09E8300FAAA8B /* Build configuration list for PBXNativeTarget "VuduTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB5795728C09E8300FAAA8B /* Debug */,
+				FEB5795828C09E8300FAAA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FEB57A1728C6431200FAAA8B /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FEB57A1828C6431200FAAA8B /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FEB57A1728C6431200FAAA8B /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		FEB57A1A28C6431200FAAA8B /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FEB57A1728C6431200FAAA8B /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		FEB5794B28C09E8100FAAA8B /* VuduTV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FEB5794C28C09E8100FAAA8B /* VuduTV.xcdatamodel */,
+			);
+			currentVersion = FEB5794C28C09E8100FAAA8B /* VuduTV.xcdatamodel */;
+			path = VuduTV.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FEB5793728C09E8100FAAA8B /* Project object */;
+}
